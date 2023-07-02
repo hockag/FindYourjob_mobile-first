@@ -8,8 +8,6 @@
     position: relative;
 }
 
-.header_left {
-    display: flex;
 .header_item a {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
