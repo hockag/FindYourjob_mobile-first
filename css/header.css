@@ -10,17 +10,13 @@
 
 .header_left {
     display: flex;
-    justify-content: space-between;
-    width: 132px;
-}
-.header_left-logo {
-    display: flex;
-    align-items: center;
-}
-
-.header_left-logo h3 {
-    color: #0F1138;
-    margin: 0;
+.header_item a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #111238;
 }
 
 .header_menu {
