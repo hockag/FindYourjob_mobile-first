@@ -1,0 +1,47 @@
+.find h2 {
+    text-align: center;
+    color:#111238;
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.find p {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color:#111238;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.search_button {
+    position: relative;
+    display: flex;
+    background: #1A75E8;
+    width: 68px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+
+.search_txt {
+    width: 290px;
+    height: 70px;
+    color: #B2B2B2;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+}
+.search_button i {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    margin: 0 auto;
+}

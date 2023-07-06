@@ -17,19 +17,14 @@
     color: #111238;
 }
 
-.header_menu {
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.8);
-    z-index: 20;
-    top: 0;
-    left: -100%;
-    transition: 0.5s;
+.header_list {
+    margin: 0 auto;
+    padding: 0;
+    width: 234px;
 }
 
-.header_menu-active {
-    left: 0;
+.header_left-logo svg {
+    padding-top: 10p;
 }
 
 .hamburger {
@@ -62,3 +57,40 @@
 .hamburger_active span:nth-child(3) {
     transform: translateY(-3px) rotate(45deg);
 }
+
+.sign-in {
+    color: #111238;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 36px;
+}
+
+.header_button {
+    display: flex;
+    border-radius: 5px;
+    background: var(--buttons-primary, #1A75E8);
+    width: 148px;
+    height: 49px;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

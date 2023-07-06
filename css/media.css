@@ -6,7 +6,7 @@
 
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 768px) {
 
 }
 
@@ -15,4 +15,18 @@
         display: block;
     }
 
+    .header_menu {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 20;
+        top: 0;
+        left: -100%;
+        transition: 0.5s;
+    }
+    
+    .header_menu-active {
+        left: 0;
+    }
 }
