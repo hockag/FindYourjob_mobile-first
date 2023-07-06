@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./media.css);
 @import url(./find.css);
+@import url(./exemple.css);
 
 ul {
     list-style: none;
@@ -8,4 +9,8 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+body {
+    background: #F2F3F6;
 }

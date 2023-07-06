@@ -29,6 +29,7 @@
 }
 
 .search_txt {
+    border-radius: 5px;
     width: 290px;
     height: 70px;
     color: #B2B2B2;
@@ -45,3 +46,4 @@
     align-items: center;
     margin: 0 auto;
 }
+

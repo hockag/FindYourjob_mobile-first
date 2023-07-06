@@ -1,0 +1,35 @@
+.exemple h4 {
+    color: #B2B2B2;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    text-align: center;
+ 
+}
+
+.exemple_list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.exemple_item {
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+    width: auto;
+    height: 18px;
+}
+
+.exemple_item h3 {
+    margin: 0;
+    color: #B2B2B2;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

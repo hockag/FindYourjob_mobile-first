@@ -3,14 +3,6 @@
 }
 
 @media screen and (max-width: 568px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 900px) {
     .hamburger {
         display: block;
     }
@@ -25,8 +17,19 @@
         left: -100%;
         transition: 0.5s;
     }
-    
+
     .header_menu-active {
         left: 0;
     }
+
+    .header_right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 900px) {
 }

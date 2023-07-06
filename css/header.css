@@ -6,6 +6,7 @@
 .header {
     background: #F2F3F6;
     position: relative;
+    padding: 30px 10px;
 }
 
 .header_item a {
@@ -21,10 +22,6 @@
     margin: 0 auto;
     padding: 0;
     width: 234px;
-}
-
-.header_left-logo svg {
-    padding-top: 10p;
 }
 
 .hamburger {
@@ -88,9 +85,27 @@
     line-height: normal;
 }
 
+.header_menu {
+    position: static;
+    width: auto;
+    height: 0;
+    background: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header_list {
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.header_left-logo a {
+    display: block;
+    width: 110px;
+}
+
 .header_right {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
-
