@@ -2,6 +2,7 @@
 @import url(./media.css);
 @import url(./find.css);
 @import url(./exemple.css);
+@import url(./categories.css);
 
 ul {
     list-style: none;

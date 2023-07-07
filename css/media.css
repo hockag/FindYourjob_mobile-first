@@ -25,6 +25,11 @@
     .header_right {
         display: none;
     }
+
+    .exemple img {
+        width: 252px;
+        height: 258px;
+    }
 }
 
 @media screen and (max-width: 768px) {

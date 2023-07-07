@@ -68,7 +68,7 @@
 .header_button {
     display: flex;
     border-radius: 5px;
-    background: var(--buttons-primary, #1A75E8);
+    background: #1A75E8;
     width: 148px;
     height: 49px;
 }
@@ -96,8 +96,11 @@
 
 .header_list {
     width: auto;
-    display: flex;
-    gap: 20px;
+    padding: 50px 0 0 0;
+}
+
+.header_item {
+    padding: 5px;
 }
 
 .header_left-logo a {
