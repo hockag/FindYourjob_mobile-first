@@ -3,6 +3,7 @@
 @import url(./find.css);
 @import url(./exemple.css);
 @import url(./categories.css);
+@import url(./vacancies.css);
 
 ul {
     list-style: none;

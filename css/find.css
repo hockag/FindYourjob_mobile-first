@@ -29,6 +29,7 @@
 }
 
 .search_txt {
+    border: solid;
     border-radius: 5px;
     width: 270px;
     height: 70px;

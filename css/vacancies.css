@@ -1,0 +1,79 @@
+.vacancies h2 {
+    color: #111238;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 110px;
+}
+
+.horizontal_card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    border:1px solid #C5C9D4;
+    border-radius: 10px;
+    width: 290px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.horizontal_card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 40px;
+}
+
+.horizontal_card-item h4 {
+    color: #111238;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.horizontal_card-item h5 {
+    margin: 0;
+    padding-top: 10px;
+    color: #111238;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vacancies_button {
+    background: #1A75E8;
+    border-radius: 5px;
+    display: flex;
+    width: 113px;
+    height: 39px;
+}
+
+.vacancies_btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    color: #FFFFFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.requirements {
+    display: flex;
+}
+
