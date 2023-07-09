@@ -1,4 +1,4 @@
-.find h2 {
+.find_title {
     text-align: center;
     color:#111238;
     font-size: 24px;
@@ -8,7 +8,12 @@
     line-height: normal;
 }
 
-.find p {
+.find {
+    background: #F2F3F6;
+    padding: 15px 15px 35px;
+}
+
+.find_descr {
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
     color:#111238;
@@ -19,28 +24,37 @@
 }
 
 .search_button {
-    position: relative;
     display: flex;
     background: #1A75E8;
-    width: 68px;
-    height: 45px;
     border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
 
-}
-
-.search_txt {
-    border: solid;
-    border-radius: 5px;
-    width: 270px;
-    height: 70px;
-    color: #B2B2B2;
-    font-family: 'Fira Sans', sans-serif;
+    color: #FFF;
+    font-family: Fira Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-left: 25px;
 }
+
+.search_button span {
+    display: none;
+}
+
+/*.search_txt {*/
+/*    border: solid;*/
+/*    border-radius: 5px;*/
+/*    width: 270px;*/
+/*    height: 70px;*/
+/*    color: #B2B2B2;*/
+/*    font-family: 'Fira Sans', sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*    padding-left: 25px;*/
+/*}*/
 .search_button i {
     display: flex;
     color: #FFFFFF;
@@ -48,3 +62,43 @@
     margin: 0 auto;
 }
 
+.search_box {
+    border-radius: 5px;
+    border: 1px solid rgba(209, 209, 209, 0.10);
+    background: var(--inputs-light, #FFF);
+    box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 11px 25px;
+}
+
+.search_input {
+    color: var(--inputs-grey, #B2B2B2);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.find_example h4 {
+    text-align: center;
+    color: #B2B2B2;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.exemple_item {
+    padding: 5px 10px;
+}
+
+.find_descr-desctop {
+    display: none;
+}

@@ -35,6 +35,14 @@
 }
 
 .exemple_image {
-    padding-top: 50px;
-    padding-left: 35px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 90%;
+
+}
+
+.exemple_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

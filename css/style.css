@@ -1,10 +1,11 @@
 @import url(./header.css);
-@import url(./media.css);
 @import url(./find.css);
 @import url(./exemple.css);
 @import url(./categories.css);
 @import url(./vacancies.css);
 @import url(./subscribe.css);
+@import url(./media.css);
+
 
 ul {
     list-style: none;
