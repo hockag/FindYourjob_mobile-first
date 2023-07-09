@@ -1,0 +1,33 @@
+.subscribe_list {
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+
+.subscribe_item {
+    text-align: center;
+}
+
+.subscribe_item h2 {
+    color: #111238;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.subscribe_item p {
+    color: #111238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.subscribe button {
+    background: #1A75E8;
+    border: none;
+}

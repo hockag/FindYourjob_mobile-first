@@ -57,6 +57,7 @@
     display: flex;
     width: 113px;
     height: 39px;
+    border: none;
 }
 
 .vacancies_btn {
@@ -79,6 +80,14 @@
 
 .vacancies_list {
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vacancies_item {
+    padding: 30px;
 }
 
 .vacancies_image {
@@ -92,4 +101,73 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.requirements_list {
+    display: flex;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.requirements_item {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+}
+
+.vacancies_item-categories h4 {
+    text-align: center;
+    margin: 0;
+    color: #B2B2B2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.requirements_item h4 {
+    color: #B2B2B2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.vacancies_item a {
+    color: #1A75E8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.vacancies_button-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vacancies_button-more button {
+    border-radius: 5px;
+    padding: 15px 30px;
+    display: flex;
+    gap: 10px;
+    height: 49px;
+    background: #1A75E8;
+    border: none;
+
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

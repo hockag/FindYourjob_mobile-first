@@ -4,6 +4,7 @@
 @import url(./exemple.css);
 @import url(./categories.css);
 @import url(./vacancies.css);
+@import url(./subscribe.css);
 
 ul {
     list-style: none;
