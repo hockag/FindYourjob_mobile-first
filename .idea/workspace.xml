@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2edd7e53-7fe8-49b9-9aed-cf68d2698a9a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2SDAGbez8nMFXuZfIGE072QfVqx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,6 +70,7 @@
       <workItem from="1689519884881" duration="698000" />
       <workItem from="1689520704283" duration="28000" />
       <workItem from="1689522781950" duration="1000" />
+      <workItem from="1690643186214" duration="746000" />
     </task>
     <servers />
   </component>
